@@ -1,0 +1,91 @@
+body{
+  background-color:#9c4d4d;
+}
+header{
+  margin-left: 29%;
+  width: 41%;
+}
+
+
+#menu{
+  background-color: black;
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  overflow: hidden;
+  margin-left: 29%;
+  width: 41%;
+
+}
+
+#menu li{
+  float: left;
+}
+
+
+#menu li a{ /*posicionamento do li no menu*/
+  display: block;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  color: inherit;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  
+}
+#menu li a:hover{
+  transition: 0.5s;
+  color: brown;
+  background-color: gold;
+}
+
+article{
+  background-color: antiquewhite;
+  text-align: justify;
+  width: 39.7%;
+  padding: 10px;
+  margin-left: 29%;
+
+}
+
+#kassandraimg {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1{ 
+  margin: 0px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#nome_livros{
+  display: inline-block;
+  text-align: center;
+  background-color: antiquewhite;
+}
+
+#imglivros{
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#nome_livros p{
+  text-align: justify;
+  font-size: large;
+}
+
+#nome_livros #link_topo{
+  text-decoration: none;
+  color: white;
+  background-color: #9c4d4d;
+  padding: 10px;
+  position: fixed;
+  right: 482px;
+  bottom: 10px;
+  box-shadow: 3px 3px 10px #333;
+}
